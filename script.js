@@ -1,4 +1,6 @@
-AOS.init();
+AOS.init({
+  once: true
+});
 
 function Menu_1() {
   $('header > nav').mouseenter(function() {
