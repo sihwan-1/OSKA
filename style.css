@@ -1117,7 +1117,7 @@ header > .menu-bg.active {
   height: 100%;
   top: 0;
   left: 0;
-  background: url(/img/imgi_51_main-contact2.jpg) no-repeat center center / cover;
+  background: url(./img/imgi_51_main-contact2.jpg) no-repeat center center / cover;
 }
 
 .section-7 > .bg-img > .bg-7 {
