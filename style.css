@@ -929,13 +929,14 @@ header > .menu-bg.active {
 
 .section-5 .swiper-5 .swiper-slide a > .img-5 {
   border-radius: 30px;
-  overflow: hidden;
+  /* overflow: hidden; */
   max-width: 770px;
   max-height: 346px;
 }
 
 .section-5 .swiper-5 .swiper-slide a > .img-5 > img {
   object-position: center;
+  height: 346px;
 }
 
 .section-5 .swiper-box-5 {

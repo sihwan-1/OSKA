@@ -1,5 +1,3 @@
-AOS.init();
-
 function Menu_1() {
   $('header > nav').mouseenter(function() {
     $('.menu-bg').addClass('active');
@@ -76,6 +74,7 @@ function Swiper_5() {
     },
   });
 }
+
 Swiper_5();
 
 function Swiper_6() {
@@ -89,3 +88,7 @@ function Swiper_6() {
   });
 }
 Swiper_6();
+
+AOS.init({
+  once: true,
+});
