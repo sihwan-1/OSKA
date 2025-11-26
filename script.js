@@ -72,6 +72,8 @@ function Swiper_5() {
       el: ".swiper-box-5 .swiper-pagination",
       clickable: true,
     },
+    observer: true,
+    observeParents: true,
   });
 }
 
@@ -91,4 +93,8 @@ Swiper_6();
 
 AOS.init({
   once: true,
+});
+
+window.addEventListener("load", function () {
+  AOS.refresh();
 });
